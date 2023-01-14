@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Common styles */
+
+/* header section styles */
+.container{
+    background-color: #FF900E1A;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 180px 20px 160px;
+}
+/* nav-section styles started */
+.nav-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.logo>h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: #3f3535;
+    
+}
+
+.menu{
+    display: flex;
+    float: left;
+    text-justify: auto;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align:justify;
+}
+/* nav-section styles ended */
+
+/* banner-section styles started */
+.banner{
+    text-align: center;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #f1ecec;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.banner-image>img{
+    /* height:100%; */
+    width:100%;
+    padding: 40px;
+    padding-bottom: 40px;
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+/* banner-section styles ended */
+
+/* header section styles ended */
