@@ -42,7 +42,7 @@
 }
 .btn-primary{
     background-color: #FF900E;
-    color: #f1ecec;
+    color: #f9f8f8;
     font-size: 20px;
     border: none;
     border-radius: 5px;
@@ -208,6 +208,19 @@
     filter: grayscale(100%);
 }
 /* sponsors-section styles ended */
+.registration-section{
+    background-color: #cebbbb;
+    width: 90%;
+    height: 50%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registration-section>img{
+    display: flex;
+}
 /*footer styles started */
 .footer{
     width: 100%;
