@@ -203,6 +203,11 @@
     border: 2px solid #c8883f;
     border-radius: 5px;
 }
+.card-design:hover{
+    background-color:#f7d4ac;
+    transform: rotate(360deg);
+    transition: ease-in-out 5s;
+}
 .number{
     font-size: 30px;
     font-weight: 800;
